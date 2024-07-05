@@ -1,7 +1,11 @@
 import os
+from dotenv import load_dotenv
 import streamlit as st
 
 from pdf_indexer import PDFIndexer
+
+# load variables from .env file
+load_dotenv()
 
 def similarity_top_k_changed():
     if st.session_state.is_document_indexed:

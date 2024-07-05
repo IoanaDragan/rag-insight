@@ -7,7 +7,8 @@ setup(
     install_requires=[
         "llama_index",
         "llmsherpa",
-        "streamlit"
+        "streamlit",
+        "python-dotenv==1.0.1"
     ],
     author="Ioana Dragan",
     author_email="draganioana.23@gmail.com",

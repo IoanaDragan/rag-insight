@@ -1,3 +1,4 @@
 llama_index
 llmsherpa
 streamlit
+python-dotenv==1.0.1

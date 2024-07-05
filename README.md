@@ -34,7 +34,6 @@ The Streamlit Chatbot allows users to:
 1. Clone the repository
 ```
 git clone https://github.com/IoanaDragan/rag-insight
-cd rag-insight
 ```
 
 2. Install dependencies
@@ -48,6 +47,7 @@ OPENAI_API_KEY=your_api_key_here
 
 4. Launch the Streamlit server
 ```
+cd rag-insight
 streamlit run rag-chatbot.py
 ```
 
