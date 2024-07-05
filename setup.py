@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "llama_index",
-        "llmsherpa==0.1.6",
+        "llmsherpa",
         "streamlit"
     ],
     author="Ioana Dragan",
